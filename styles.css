@@ -1,5 +1,15 @@
 /* your beautiful css styling goes here! */
 
-/* Note: an asteroid image is included in this repo. 
+/* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
+.boardGame {
+  border: 3px grey solid;
+  border-radius: 3px;
+}
 
+.enemy {
+  fill: black;
+  stroke-width: 0;
+  stroke: green;
+  stroke-linecap: square;
+}
