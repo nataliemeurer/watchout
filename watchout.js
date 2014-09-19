@@ -1,4 +1,4 @@
-//declare width and height
+//declare width, height, enemey radius
 var width = 960,
     height = 500,
     circleR = 10,
@@ -12,7 +12,7 @@ var svg = d3.select('body').append('svg')
     .attr('height', height);
 
 
-//ENEMY MOVEMENT
+//ENEMY MOVEMENT AND INSTANTIATION
 var updateEnemies = function(coords){
   var enemy = svg.selectAll('circle')
       .data(coords, function(d){ return d; });
