@@ -5,25 +5,10 @@ Feel free to use it if you like. */
 .boardGame {
   border: 3px grey solid;
   border-radius: 3px;
+  margin: 0 auto;
 }
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-image.enemy {
-  -webkit-animation: spin 10s infinite linear;
-}
-
 
 .player {
   fill: red;
-  stroke-width: 0;/*
-  stroke: green;
-  stroke-linecap: square;*/
+  stroke-width: 0;
 }
