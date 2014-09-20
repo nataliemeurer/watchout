@@ -13,3 +13,11 @@ Feel free to use it if you like. */
   stroke: green;
   stroke-linecap: square;
 }
+
+
+.player {
+  fill: red;
+  stroke-width: 0;/*
+  stroke: green;
+  stroke-linecap: square;*/
+}

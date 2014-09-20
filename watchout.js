@@ -2,7 +2,7 @@
 var width = 960,
     height = 500,
     circleR = 10,
-    buffer = 10,
+    buffer = 5,
     setTime = 1000;
 
 //declare svg element to display game
