@@ -1,9 +1,9 @@
 //declare width, height, enemey radius
-var width = 960,
-    height = 500,
+var width = 1700,
+    height = 900,
     circleR = 10,
     buffer = 5,
-    setTime = 1000;
+    setTime = 2500;
 
 //declare svg element to display game
 var svg = d3.select('body').append('svg')
@@ -18,7 +18,7 @@ var updateEnemies = function(coords){
       .data(coords, function(d){ return d; });
 
   enemy.transition()
-      .duration(1000)
+      .duration(2500)
       .attr("cx", function(d){ return d[0]; })
       .attr("cy", function(d){ return d[1]; });
 
@@ -43,3 +43,4 @@ var updateCoords = function(coords, size){
   }
   return coords;
 }
+
